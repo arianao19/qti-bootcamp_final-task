@@ -1,4 +1,5 @@
-from flask import Flask, jsonify
+from flask import Flask, jsonify, render_template, request, Response, redirect, url_for
+from flask_bootstrap import Bootstrap
 
 # configuration
 DEBUG = True
