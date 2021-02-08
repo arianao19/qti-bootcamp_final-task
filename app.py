@@ -76,7 +76,7 @@ def get_detections():
         responses = []
         raw_img = raw_images[j]
         num += 1
-        img = tf.expand_dims(raw_img, 9)
+        img = tf.expand_dims(raw_img, 0)
         img = transform_images(img, size)
 
         t1 = time.time()
