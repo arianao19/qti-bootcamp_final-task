@@ -9,9 +9,7 @@ build an object detection apps that build on python language using flask
 apps run at port 5000
 
 ### API routes:
-#### a
-0.0.0.0:5000/detections
-
+#### a) 0.0.0.0:5000/detections
 
 params: images: file(could be multiple image file)
 
@@ -36,14 +34,13 @@ return:
 }
 ```
 
-#### b
-0.0.0.0:5000/image
-
+#### b) 0.0.0.0:5000/image
 
 params: images: file(could be multiple image file)
 
 return:
 image file that already processed
+
 
 *nb:
 weight data are on google drive
