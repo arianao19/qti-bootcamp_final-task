@@ -42,6 +42,13 @@ return:
 image file that already processed
 
 
+
+example result:
+https://drive.google.com/file/d/1vOmpHuJKb2owWP2cUekIDdGhk6HS2hQ4/view?usp=sharing
+
+
+
+
 *nb:
 weight data are on google drive
 
